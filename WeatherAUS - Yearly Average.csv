@@ -1,0 +1,82 @@
+,id,Year,MinTemp,MaxTemp,Rainfall,State
+0,0,2008,14.31,23.19,2.84,New South Wales
+1,0,2009,13.2,24.18,2.32,New South Wales
+2,0,2010,13.1,23.18,2.88,New South Wales
+3,0,2011,12.81,23.19,3.03,New South Wales
+4,0,2012,11.8,22.82,2.81,New South Wales
+5,0,2013,12.53,24.11,2.72,New South Wales
+6,0,2014,13.32,24.27,2.27,New South Wales
+7,0,2015,13.16,23.79,3.05,New South Wales
+8,0,2016,13.54,24.3,2.71,New South Wales
+9,0,2017,15.27,25.8,3.3,New South Wales
+10,1,2008,10.15,20.4,1.57,Victoria
+11,1,2009,9.5,21.27,1.46,Victoria
+12,1,2010,9.61,20.37,2.24,Victoria
+13,1,2011,9.71,20.31,2.31,Victoria
+14,1,2012,9.0,20.18,1.78,Victoria
+15,1,2013,9.23,20.73,1.76,Victoria
+16,1,2014,9.82,21.7,1.39,Victoria
+17,1,2015,9.26,21.21,1.3,Victoria
+18,1,2016,9.79,20.82,1.89,Victoria
+19,1,2017,10.93,22.97,1.49,Victoria
+20,2,2008,17.67,27.17,4.02,Queensland
+21,2,2009,18.58,28.09,4.49,Queensland
+22,2,2010,19.47,27.48,5.74,Queensland
+23,2,2011,18.04,27.18,4.58,Queensland
+24,2,2012,18.02,27.1,4.37,Queensland
+25,2,2013,18.54,27.69,2.88,Queensland
+26,2,2014,18.79,27.82,3.11,Queensland
+27,2,2015,18.93,27.95,3.75,Queensland
+28,2,2016,19.56,28.38,2.86,Queensland
+29,2,2017,20.41,28.8,4.69,Queensland
+30,3,2008,10.59,20.36,3.82,South Australia
+31,3,2009,10.77,23.04,1.29,South Australia
+32,3,2010,10.23,21.95,1.5,South Australia
+33,3,2011,10.69,22.29,1.64,South Australia
+34,3,2012,9.73,22.18,1.03,South Australia
+35,3,2013,10.44,22.61,1.38,South Australia
+36,3,2014,10.64,23.39,1.14,South Australia
+37,3,2015,10.42,22.78,0.94,South Australia
+38,3,2016,10.54,22.45,1.74,South Australia
+39,3,2017,11.73,24.59,1.12,South Australia
+40,4,2008,10.43,22.25,2.12,Western Australia
+41,4,2009,11.33,23.66,1.91,Western Australia
+42,4,2010,11.1,24.18,1.42,Western Australia
+43,4,2011,12.39,24.08,2.4,Western Australia
+44,4,2012,11.32,23.72,1.97,Western Australia
+45,4,2013,11.69,23.48,2.63,Western Australia
+46,4,2014,11.98,24.07,1.93,Western Australia
+47,4,2015,11.83,24.22,1.77,Western Australia
+48,4,2016,11.2,22.87,2.32,Western Australia
+49,4,2017,12.44,25.25,1.81,Western Australia
+50,5,2008,7.65,17.15,1.4,Tasmania
+51,5,2009,8.64,18.24,2.21,Tasmania
+52,5,2010,8.49,18.58,1.86,Tasmania
+53,5,2011,8.32,18.0,1.88,Tasmania
+54,5,2012,8.1,18.12,1.54,Tasmania
+55,5,2013,8.21,18.1,2.17,Tasmania
+56,5,2014,8.45,18.82,1.47,Tasmania
+57,5,2015,7.99,18.23,1.43,Tasmania
+58,5,2016,9.17,18.59,2.33,Tasmania
+59,5,2017,9.71,20.05,1.09,Tasmania
+60,6,2008,22.59,33.24,2.59,Northern Territory
+61,6,2009,18.84,31.31,2.49,Northern Territory
+62,6,2010,18.31,29.62,4.15,Northern Territory
+63,6,2011,17.39,30.1,4.27,Northern Territory
+64,6,2012,16.63,30.5,2.54,Northern Territory
+65,6,2013,17.62,31.9,1.97,Northern Territory
+66,6,2014,17.71,32.02,2.25,Northern Territory
+67,6,2015,17.62,31.79,2.3,Northern Territory
+68,6,2016,18.59,32.0,2.08,Northern Territory
+69,6,2017,18.6,31.99,4.47,Northern Territory
+70,7,2007,12.55,25.09,3.22,Australian Capital Territory
+71,7,2008,7.33,20.41,1.72,Australian Capital Territory
+72,7,2009,6.51,18.3,1.85,Australian Capital Territory
+73,7,2010,6.08,17.26,3.68,Australian Capital Territory
+74,7,2011,5.62,17.16,2.83,Australian Capital Territory
+75,7,2012,4.32,16.41,2.77,Australian Capital Territory
+76,7,2013,5.02,17.99,1.83,Australian Capital Territory
+77,7,2014,6.03,18.35,1.99,Australian Capital Territory
+78,7,2015,5.68,17.74,1.92,Australian Capital Territory
+79,7,2016,6.44,17.92,2.8,Australian Capital Territory
+80,7,2017,7.4,20.15,1.44,Australian Capital Territory

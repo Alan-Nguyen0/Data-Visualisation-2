@@ -1,0 +1,973 @@
+,id,Month,Year,MinTemp,MaxTemp,Rainfall,State,Month String
+0,0,1,2008,13.41,23.16,1.24,New South Wales,Jan
+1,0,1,2009,17.02,29.26,1.66,New South Wales,Jan
+2,0,1,2010,17.01,27.65,2.16,New South Wales,Jan
+3,0,1,2011,17.45,28.52,1.25,New South Wales,Jan
+4,0,1,2012,16.17,25.9,6.11,New South Wales,Jan
+5,0,1,2013,17.29,27.91,6.94,New South Wales,Jan
+6,0,1,2014,17.19,28.34,1.48,New South Wales,Jan
+7,0,1,2015,16.48,27.25,3.87,New South Wales,Jan
+8,0,1,2016,17.02,27.72,3.73,New South Wales,Jan
+9,0,1,2017,19.53,31.3,1.79,New South Wales,Jan
+10,0,2,2008,16.38,24.71,3.59,New South Wales,Feb
+11,0,2,2009,16.02,25.81,5.92,New South Wales,Feb
+12,0,2,2010,16.71,25.95,4.22,New South Wales,Feb
+13,0,2,2011,16.65,26.24,2.25,New South Wales,Feb
+14,0,2,2012,15.62,25.51,3.83,New South Wales,Feb
+15,0,2,2013,12.37,23.66,3.66,New South Wales,Feb
+16,0,2,2014,16.6,26.24,3.39,New South Wales,Feb
+17,0,2,2015,17.05,27.1,3.87,New South Wales,Feb
+18,0,2,2016,16.85,28.4,0.95,New South Wales,Feb
+19,0,2,2017,17.28,28.23,3.31,New South Wales,Feb
+20,0,3,2008,16.45,25.26,1.63,New South Wales,Mar
+21,0,3,2009,15.55,26.4,2.03,New South Wales,Mar
+22,0,3,2010,15.63,25.9,3.64,New South Wales,Mar
+23,0,3,2011,15.44,25.38,3.93,New South Wales,Mar
+24,0,3,2012,14.23,24.46,2.96,New South Wales,Mar
+25,0,3,2013,14.96,26.03,1.92,New South Wales,Mar
+26,0,3,2014,15.37,25.54,3.05,New South Wales,Mar
+27,0,3,2015,14.75,25.54,3.26,New South Wales,Mar
+28,0,3,2016,15.93,25.71,3.74,New South Wales,Mar
+29,0,3,2017,18.47,26.9,7.71,New South Wales,Mar
+30,0,4,2008,14.06,20.72,4.24,New South Wales,Apr
+31,0,4,2009,13.05,22.67,2.76,New South Wales,Apr
+32,0,4,2010,13.28,23.69,3.12,New South Wales,Apr
+33,0,4,2011,12.73,23.68,0.87,New South Wales,Apr
+34,0,4,2012,12.74,23.54,4.63,New South Wales,Apr
+35,0,4,2013,11.8,23.94,2.27,New South Wales,Apr
+36,0,4,2014,12.92,23.5,2.14,New South Wales,Apr
+37,0,4,2015,13.07,22.78,7.51,New South Wales,Apr
+38,0,4,2016,14.16,24.77,4.26,New South Wales,Apr
+39,0,4,2017,13.64,24.12,2.33,New South Wales,Apr
+40,0,5,2008,12.92,21.64,4.32,New South Wales,May
+41,0,5,2009,11.68,21.38,3.09,New South Wales,May
+42,0,5,2010,11.17,20.48,5.19,New South Wales,May
+43,0,5,2011,9.6,20.45,3.1,New South Wales,May
+44,0,5,2012,9.21,21.1,1.44,New South Wales,May
+45,0,5,2013,10.09,21.11,3.14,New South Wales,May
+46,0,5,2014,12.05,23.61,1.4,New South Wales,May
+47,0,5,2015,10.91,20.97,2.8,New South Wales,May
+48,0,5,2016,11.09,22.41,4.0,New South Wales,May
+49,0,5,2017,11.38,21.61,1.77,New South Wales,May
+50,0,6,2008,12.86,21.79,2.88,New South Wales,Jun
+51,0,6,2009,9.61,20.24,3.28,New South Wales,Jun
+52,0,6,2010,9.34,19.15,2.71,New South Wales,Jun
+53,0,6,2011,9.6,19.65,3.3,New South Wales,Jun
+54,0,6,2012,9.16,19.4,2.05,New South Wales,Jun
+55,0,6,2013,9.29,19.44,4.56,New South Wales,Jun
+56,0,6,2014,10.02,20.15,2.02,New South Wales,Jun
+57,0,6,2015,10.04,20.22,3.16,New South Wales,Jun
+58,0,6,2016,10.16,19.93,5.16,New South Wales,Jun
+59,0,6,2017,10.51,20.94,1.66,New South Wales,Jun
+60,0,7,2008,10.99,19.77,3.34,New South Wales,Jul
+61,0,7,2009,8.8,20.28,1.9,New South Wales,Jul
+62,0,7,2010,9.67,19.02,3.61,New South Wales,Jul
+63,0,7,2011,8.33,18.49,4.49,New South Wales,Jul
+64,0,7,2012,8.54,18.77,1.83,New South Wales,Jul
+65,0,7,2013,9.81,20.89,0.94,New South Wales,Jul
+66,0,7,2014,9.04,20.16,1.73,New South Wales,Jul
+67,0,7,2015,8.88,19.2,1.46,New South Wales,Jul
+68,0,7,2016,10.04,20.54,2.3,New South Wales,Jul
+69,0,7,2017,14.69,24.78,3.73,New South Wales,Jul
+70,0,8,2008,10.46,19.5,3.94,New South Wales,Aug
+71,0,8,2009,10.36,22.25,0.65,New South Wales,Aug
+72,0,8,2010,9.54,19.99,1.46,New South Wales,Aug
+73,0,8,2011,9.46,20.22,2.59,New South Wales,Aug
+74,0,8,2012,8.55,20.83,1.79,New South Wales,Aug
+75,0,8,2013,9.61,22.15,0.54,New South Wales,Aug
+76,0,8,2014,10.05,20.42,5.36,New South Wales,Aug
+77,0,8,2015,9.85,20.75,2.0,New South Wales,Aug
+78,0,8,2016,10.19,21.14,1.78,New South Wales,Aug
+79,0,8,2017,14.47,25.46,7.44,New South Wales,Aug
+80,0,9,2008,13.55,23.12,1.88,New South Wales,Sep
+81,0,9,2009,11.44,23.19,1.27,New South Wales,Sep
+82,0,9,2010,11.07,22.29,1.59,New South Wales,Sep
+83,0,9,2011,11.04,22.87,2.86,New South Wales,Sep
+84,0,9,2012,10.42,22.68,1.75,New South Wales,Sep
+85,0,9,2013,11.77,24.58,1.5,New South Wales,Sep
+86,0,9,2014,11.25,23.49,0.8,New South Wales,Sep
+87,0,9,2015,11.08,22.59,1.77,New South Wales,Sep
+88,0,9,2016,12.33,21.93,2.31,New South Wales,Sep
+89,0,9,2017,15.21,26.38,1.74,New South Wales,Sep
+90,0,10,2008,14.4,22.64,1.98,New South Wales,Oct
+91,0,10,2009,12.68,23.91,2.03,New South Wales,Oct
+92,0,10,2010,13.23,23.44,2.75,New South Wales,Oct
+93,0,10,2011,13.16,23.65,2.2,New South Wales,Oct
+94,0,10,2012,11.46,24.28,1.07,New South Wales,Oct
+95,0,10,2013,12.88,25.97,1.02,New South Wales,Oct
+96,0,10,2014,13.55,25.56,2.11,New South Wales,Oct
+97,0,10,2015,14.54,25.4,1.36,New South Wales,Oct
+98,0,10,2016,12.84,24.24,1.68,New South Wales,Oct
+99,0,10,2017,14.99,26.88,6.08,New South Wales,Oct
+100,0,11,2008,15.58,22.39,2.72,New South Wales,Nov
+101,0,11,2009,16.01,27.48,1.15,New South Wales,Nov
+102,0,11,2010,15.39,24.86,2.99,New South Wales,Nov
+103,0,11,2011,15.18,25.17,5.06,New South Wales,Nov
+104,0,11,2012,14.41,25.15,2.92,New South Wales,Nov
+105,0,11,2013,13.9,25.29,5.14,New South Wales,Nov
+106,0,11,2014,16.12,27.58,1.87,New South Wales,Nov
+107,0,11,2015,15.61,27.14,2.53,New South Wales,Nov
+108,0,11,2016,14.98,26.55,0.69,New South Wales,Nov
+109,0,11,2017,15.34,28.08,2.24,New South Wales,Nov
+110,0,12,2008,16.17,26.41,2.38,New South Wales,Dec
+111,0,12,2009,16.32,27.24,2.42,New South Wales,Dec
+112,0,12,2010,15.25,25.93,1.21,New South Wales,Dec
+113,0,12,2011,15.25,24.49,3.13,New South Wales,Dec
+114,0,12,2012,10.8,21.85,4.61,New South Wales,Dec
+115,0,12,2013,16.35,27.98,1.86,New South Wales,Dec
+116,0,12,2014,15.97,26.77,1.94,New South Wales,Dec
+117,0,12,2015,15.9,26.74,3.29,New South Wales,Dec
+118,0,12,2016,16.98,28.56,1.8,New South Wales,Dec
+119,0,12,2017,15.99,26.5,2.15,New South Wales,Dec
+120,1,1,2008,9.12,18.42,1.0,Victoria,Jan
+121,1,1,2009,13.17,27.71,0.75,Victoria,Jan
+122,1,1,2010,11.68,24.1,1.74,Victoria,Jan
+123,1,1,2011,13.1,24.8,3.07,Victoria,Jan
+124,1,1,2012,13.1,25.12,1.69,Victoria,Jan
+125,1,1,2013,11.83,24.81,1.92,Victoria,Jan
+126,1,1,2014,14.33,27.82,1.07,Victoria,Jan
+127,1,1,2015,11.23,23.66,1.59,Victoria,Jan
+128,1,1,2016,12.93,25.04,2.45,Victoria,Jan
+129,1,1,2017,13.46,26.82,1.26,Victoria,Jan
+130,1,2,2008,9.72,20.78,0.3,Victoria,Feb
+131,1,2,2009,12.05,24.79,0.8,Victoria,Feb
+132,1,2,2010,12.78,24.07,1.39,Victoria,Feb
+133,1,2,2011,12.05,22.79,1.46,Victoria,Feb
+134,1,2,2012,12.88,25.14,2.6,Victoria,Feb
+135,1,2,2013,9.3,21.61,1.0,Victoria,Feb
+136,1,2,2014,12.08,23.59,1.86,Victoria,Feb
+137,1,2,2015,12.89,25.87,1.24,Victoria,Feb
+138,1,2,2016,12.26,24.74,0.95,Victoria,Feb
+139,1,2,2017,11.6,24.7,0.77,Victoria,Feb
+140,1,3,2008,10.7,18.96,0.65,Victoria,Mar
+141,1,3,2009,11.37,23.62,1.51,Victoria,Mar
+142,1,3,2010,12.07,24.24,1.13,Victoria,Mar
+143,1,3,2011,11.52,21.54,1.81,Victoria,Mar
+144,1,3,2012,10.81,22.82,1.45,Victoria,Mar
+145,1,3,2013,11.1,23.11,1.42,Victoria,Mar
+146,1,3,2014,10.93,23.13,1.73,Victoria,Mar
+147,1,3,2015,9.72,22.89,0.99,Victoria,Mar
+148,1,3,2016,11.37,22.22,1.43,Victoria,Mar
+149,1,3,2017,13.39,25.56,2.04,Victoria,Mar
+150,1,4,2008,8.96,19.19,0.92,Victoria,Apr
+151,1,4,2009,8.47,19.42,1.72,Victoria,Apr
+152,1,4,2010,10.99,21.52,2.01,Victoria,Apr
+153,1,4,2011,10.03,20.31,1.03,Victoria,Apr
+154,1,4,2012,9.52,21.71,2.23,Victoria,Apr
+155,1,4,2013,9.42,20.66,1.38,Victoria,Apr
+156,1,4,2014,8.68,20.46,1.47,Victoria,Apr
+157,1,4,2015,8.64,19.64,1.96,Victoria,Apr
+158,1,4,2016,10.17,22.44,1.01,Victoria,Apr
+159,1,4,2017,10.36,21.62,2.22,Victoria,Apr
+160,1,5,2008,9.4,23.35,0.28,Victoria,May
+161,1,5,2009,8.1,18.38,1.2,Victoria,May
+162,1,5,2010,7.96,17.91,2.33,Victoria,May
+163,1,5,2011,7.92,17.19,2.99,Victoria,May
+164,1,5,2012,7.74,17.74,2.11,Victoria,May
+165,1,5,2013,7.84,17.93,2.08,Victoria,May
+166,1,5,2014,9.71,20.34,0.98,Victoria,May
+167,1,5,2015,7.6,18.3,1.74,Victoria,May
+168,1,5,2016,8.52,18.67,1.68,Victoria,May
+169,1,5,2017,8.4,18.78,1.28,Victoria,May
+170,1,6,2008,9.61,20.55,0.15,Victoria,Jun
+171,1,6,2009,6.15,17.35,0.68,Victoria,Jun
+172,1,6,2010,6.74,16.4,2.16,Victoria,Jun
+173,1,6,2011,6.81,16.94,1.6,Victoria,Jun
+174,1,6,2012,6.73,15.88,2.1,Victoria,Jun
+175,1,6,2013,6.26,17.13,2.14,Victoria,Jun
+176,1,6,2014,7.91,16.97,2.13,Victoria,Jun
+177,1,6,2015,7.44,17.17,1.11,Victoria,Jun
+178,1,6,2016,7.21,16.78,2.45,Victoria,Jun
+179,1,6,2017,7.1,17.84,1.52,Victoria,Jun
+180,1,7,2008,7.23,15.41,1.22,Victoria,Jul
+181,1,7,2009,6.57,17.04,1.31,Victoria,Jul
+182,1,7,2010,6.74,16.55,3.08,Victoria,Jul
+183,1,7,2011,6.06,16.45,1.93,Victoria,Jul
+184,1,7,2012,6.3,15.99,1.59,Victoria,Jul
+185,1,7,2013,7.69,17.52,2.39,Victoria,Jul
+186,1,7,2014,6.77,16.93,1.27,Victoria,Jul
+187,1,7,2015,6.27,16.04,1.93,Victoria,Jul
+188,1,7,2016,7.6,17.33,1.87,Victoria,Jul
+189,1,7,2017,11.08,24.55,0.6,Victoria,Jul
+190,1,8,2008,7.79,15.91,1.4,Victoria,Aug
+191,1,8,2009,7.61,17.88,1.81,Victoria,Aug
+192,1,8,2010,7.11,16.95,2.38,Victoria,Aug
+193,1,8,2011,7.22,17.98,1.63,Victoria,Aug
+194,1,8,2012,6.71,16.51,1.81,Victoria,Aug
+195,1,8,2013,8.01,18.72,2.09,Victoria,Aug
+196,1,8,2014,7.24,19.01,0.93,Victoria,Aug
+197,1,8,2015,7.36,17.55,1.28,Victoria,Aug
+198,1,8,2016,7.82,18.02,1.56,Victoria,Aug
+199,1,8,2017,11.98,26.1,0.64,Victoria,Aug
+200,1,9,2008,9.71,19.79,0.49,Victoria,Sep
+201,1,9,2009,7.74,18.92,2.48,Victoria,Sep
+202,1,9,2010,7.89,18.19,1.41,Victoria,Sep
+203,1,9,2011,8.33,19.59,2.27,Victoria,Sep
+204,1,9,2012,7.57,18.3,1.46,Victoria,Sep
+205,1,9,2013,8.74,20.35,2.15,Victoria,Sep
+206,1,9,2014,8.46,20.9,1.06,Victoria,Sep
+207,1,9,2015,7.67,19.72,0.88,Victoria,Sep
+208,1,9,2016,8.5,18.11,3.6,Victoria,Sep
+209,1,9,2017,12.38,23.48,1.69,Victoria,Sep
+210,1,10,2008,11.37,21.4,1.02,Victoria,Oct
+211,1,10,2009,9.13,20.78,0.98,Victoria,Oct
+212,1,10,2010,9.28,20.13,3.31,Victoria,Oct
+213,1,10,2011,10.0,20.9,2.46,Victoria,Oct
+214,1,10,2012,8.09,20.71,1.28,Victoria,Oct
+215,1,10,2013,8.9,20.5,1.65,Victoria,Oct
+216,1,10,2014,9.91,22.73,1.76,Victoria,Oct
+217,1,10,2015,10.09,23.27,1.1,Victoria,Oct
+218,1,10,2016,8.46,19.76,2.18,Victoria,Oct
+219,1,10,2017,10.71,23.65,3.99,Victoria,Oct
+220,1,11,2008,11.56,22.22,2.05,Victoria,Nov
+221,1,11,2009,12.09,24.71,2.83,Victoria,Nov
+222,1,11,2010,11.47,22.14,3.73,Victoria,Nov
+223,1,11,2011,11.64,22.15,3.64,Victoria,Nov
+224,1,11,2012,10.11,22.57,1.45,Victoria,Nov
+225,1,11,2013,10.2,22.16,1.57,Victoria,Nov
+226,1,11,2014,11.23,23.9,1.65,Victoria,Nov
+227,1,11,2015,10.13,23.83,0.71,Victoria,Nov
+228,1,11,2016,10.48,22.17,1.81,Victoria,Nov
+229,1,11,2017,10.88,23.45,0.55,Victoria,Nov
+230,1,12,2008,11.86,23.58,3.01,Victoria,Dec
+231,1,12,2009,12.14,25.41,1.4,Victoria,Dec
+232,1,12,2010,10.89,22.55,2.1,Victoria,Dec
+233,1,12,2011,12.12,23.25,2.98,Victoria,Dec
+234,1,12,2012,8.06,19.44,1.43,Victoria,Dec
+235,1,12,2013,11.64,24.96,0.93,Victoria,Dec
+236,1,12,2014,10.7,24.6,0.81,Victoria,Dec
+237,1,12,2015,12.33,26.91,1.07,Victoria,Dec
+238,1,12,2016,12.72,25.32,1.59,Victoria,Dec
+239,1,12,2017,10.4,22.42,0.68,Victoria,Dec
+240,2,1,2008,16.66,28.87,2.84,Queensland,Jan
+241,2,1,2009,21.07,29.52,11.11,Queensland,Jan
+242,2,1,2010,21.81,29.66,9.79,Queensland,Jan
+243,2,1,2011,20.95,29.43,4.11,Queensland,Jan
+244,2,1,2012,21.06,28.55,12.58,Queensland,Jan
+245,2,1,2013,21.96,29.85,10.32,Queensland,Jan
+246,2,1,2014,21.3,29.76,3.94,Queensland,Jan
+247,2,1,2015,22.11,30.6,8.68,Queensland,Jan
+248,2,1,2016,21.82,30.17,3.98,Queensland,Jan
+249,2,1,2017,23.2,31.09,4.1,Queensland,Jan
+250,2,2,2008,17.27,26.82,1.0,Queensland,Feb
+251,2,2,2009,21.06,29.25,7.72,Queensland,Feb
+252,2,2,2010,21.8,29.06,10.64,Queensland,Feb
+253,2,2,2011,20.74,29.1,9.31,Queensland,Feb
+254,2,2,2012,20.84,29.06,5.31,Queensland,Feb
+255,2,2,2013,18.41,27.89,7.11,Queensland,Feb
+256,2,2,2014,21.27,29.47,4.68,Queensland,Feb
+257,2,2,2015,21.44,29.66,8.77,Queensland,Feb
+258,2,2,2016,21.76,30.98,2.04,Queensland,Feb
+259,2,2,2017,22.81,30.99,3.4,Queensland,Feb
+260,2,3,2008,17.59,27.13,0.36,Queensland,Mar
+261,2,3,2009,20.27,29.32,4.79,Queensland,Mar
+262,2,3,2010,21.03,28.38,6.74,Queensland,Mar
+263,2,3,2011,20.73,28.73,5.57,Queensland,Mar
+264,2,3,2012,19.98,28.06,13.16,Queensland,Mar
+265,2,3,2013,20.3,29.17,3.82,Queensland,Mar
+266,2,3,2014,20.87,28.75,7.25,Queensland,Mar
+267,2,3,2015,21.28,29.84,4.35,Queensland,Mar
+268,2,3,2016,21.47,29.55,4.05,Queensland,Mar
+269,2,3,2017,22.74,30.24,10.28,Queensland,Mar
+270,2,4,2008,17.52,27.21,1.56,Queensland,Apr
+271,2,4,2009,18.92,28.53,4.32,Queensland,Apr
+272,2,4,2010,20.04,27.65,5.2,Queensland,Apr
+273,2,4,2011,17.96,26.92,12.91,Queensland,Apr
+274,2,4,2012,18.48,27.22,7.54,Queensland,Apr
+275,2,4,2013,18.6,28.1,2.19,Queensland,Apr
+276,2,4,2014,19.59,28.09,5.31,Queensland,Apr
+277,2,4,2015,18.41,28.01,3.41,Queensland,Apr
+278,2,4,2016,19.99,28.47,5.41,Queensland,Apr
+279,2,4,2017,19.0,27.75,2.43,Queensland,Apr
+280,2,5,2008,17.47,26.58,5.71,Queensland,May
+281,2,5,2009,16.86,26.63,4.39,Queensland,May
+282,2,5,2010,17.84,26.37,2.56,Queensland,May
+283,2,5,2011,15.93,25.51,2.15,Queensland,May
+284,2,5,2012,16.11,25.49,2.43,Queensland,May
+285,2,5,2013,17.09,25.8,2.22,Queensland,May
+286,2,5,2014,18.27,27.01,1.52,Queensland,May
+287,2,5,2015,17.63,26.98,1.06,Queensland,May
+288,2,5,2016,18.33,27.61,4.49,Queensland,May
+289,2,5,2017,17.9,26.51,5.17,Queensland,May
+290,2,6,2008,18.69,29.01,6.29,Queensland,Jun
+291,2,6,2009,15.61,25.81,2.37,Queensland,Jun
+292,2,6,2010,17.06,25.65,1.69,Queensland,Jun
+293,2,6,2011,14.21,24.59,2.21,Queensland,Jun
+294,2,6,2012,15.25,24.99,1.34,Queensland,Jun
+295,2,6,2013,15.38,24.85,1.64,Queensland,Jun
+296,2,6,2014,16.03,25.38,1.2,Queensland,Jun
+297,2,6,2015,17.07,25.69,2.64,Queensland,Jun
+298,2,6,2016,17.26,25.76,3.86,Queensland,Jun
+299,2,6,2017,17.06,25.77,3.59,Queensland,Jun
+300,2,7,2008,12.95,22.96,2.64,Queensland,Jul
+301,2,7,2009,15.32,25.65,2.35,Queensland,Jul
+302,2,7,2010,17.2,25.83,3.13,Queensland,Jul
+303,2,7,2011,14.47,24.83,3.1,Queensland,Jul
+304,2,7,2012,15.53,24.9,0.98,Queensland,Jul
+305,2,7,2013,16.33,25.34,1.23,Queensland,Jul
+306,2,7,2014,14.76,25.39,1.88,Queensland,Jul
+307,2,7,2015,15.23,25.08,1.66,Queensland,Jul
+308,2,7,2016,17.24,26.1,1.7,Queensland,Jul
+309,2,7,2017,20.17,28.56,5.17,Queensland,Jul
+310,2,8,2008,12.45,23.15,4.17,Queensland,Aug
+311,2,8,2009,16.71,27.56,2.52,Queensland,Aug
+312,2,8,2010,16.69,25.89,2.53,Queensland,Aug
+313,2,8,2011,15.71,25.46,4.79,Queensland,Aug
+314,2,8,2012,15.79,26.1,0.61,Queensland,Aug
+315,2,8,2013,15.7,26.71,1.04,Queensland,Aug
+316,2,8,2014,15.88,25.34,3.17,Queensland,Aug
+317,2,8,2015,16.51,26.41,3.1,Queensland,Aug
+318,2,8,2016,16.78,26.2,1.39,Queensland,Aug
+319,2,8,2017,19.49,28.39,3.13,Queensland,Aug
+320,2,9,2008,15.57,25.56,0.92,Queensland,Sep
+321,2,9,2009,17.65,28.09,1.77,Queensland,Sep
+322,2,9,2010,19.56,27.44,3.61,Queensland,Sep
+323,2,9,2011,16.45,26.85,1.15,Queensland,Sep
+324,2,9,2012,17.34,27.42,0.78,Queensland,Sep
+325,2,9,2013,17.61,27.77,1.3,Queensland,Sep
+326,2,9,2014,17.26,27.12,2.13,Queensland,Sep
+327,2,9,2015,16.84,27.07,2.1,Queensland,Sep
+328,2,9,2016,19.1,27.74,1.76,Queensland,Sep
+329,2,9,2017,19.53,28.76,2.66,Queensland,Sep
+330,2,10,2008,15.33,25.19,1.79,Queensland,Oct
+331,2,10,2009,18.21,28.36,2.27,Queensland,Oct
+332,2,10,2010,19.08,27.2,3.79,Queensland,Oct
+333,2,10,2011,18.99,27.19,7.67,Queensland,Oct
+334,2,10,2012,17.95,27.74,1.74,Queensland,Oct
+335,2,10,2013,19.62,28.26,1.35,Queensland,Oct
+336,2,10,2014,18.5,28.31,1.28,Queensland,Oct
+337,2,10,2015,18.87,27.84,1.62,Queensland,Oct
+338,2,10,2016,19.26,28.47,1.82,Queensland,Oct
+339,2,10,2017,19.98,28.73,1.73,Queensland,Oct
+340,2,11,2008,18.56,27.54,11.07,Queensland,Nov
+341,2,11,2009,20.29,29.18,1.38,Queensland,Nov
+342,2,11,2010,20.49,28.04,6.85,Queensland,Nov
+343,2,11,2011,20.32,28.77,2.63,Queensland,Nov
+344,2,11,2012,20.14,28.76,2.04,Queensland,Nov
+345,2,11,2013,20.38,28.86,3.87,Queensland,Nov
+346,2,11,2014,20.81,29.52,1.86,Queensland,Nov
+347,2,11,2015,20.87,29.35,1.89,Queensland,Nov
+348,2,11,2016,20.26,29.72,1.46,Queensland,Nov
+349,2,11,2017,19.72,28.89,5.12,Queensland,Nov
+350,2,12,2008,22.12,30.63,4.52,Queensland,Dec
+351,2,12,2009,21.14,29.33,8.93,Queensland,Dec
+352,2,12,2010,21.23,28.67,12.52,Queensland,Dec
+353,2,12,2011,20.15,28.71,4.84,Queensland,Dec
+354,2,12,2012,17.82,26.88,3.25,Queensland,Dec
+355,2,12,2013,21.03,29.72,1.12,Queensland,Dec
+356,2,12,2014,21.19,29.83,3.19,Queensland,Dec
+357,2,12,2015,20.99,28.99,6.09,Queensland,Dec
+358,2,12,2016,21.47,29.93,2.15,Queensland,Dec
+359,2,12,2017,20.03,29.3,5.25,Queensland,Dec
+360,3,1,2008,6.6,18.7,4.0,South Australia,Jan
+361,3,1,2009,14.72,29.87,0.72,South Australia,Jan
+362,3,1,2010,12.47,26.76,0.84,South Australia,Jan
+363,3,1,2011,14.51,28.63,1.67,South Australia,Jan
+364,3,1,2012,14.16,27.89,1.21,South Australia,Jan
+365,3,1,2013,12.57,26.9,1.17,South Australia,Jan
+366,3,1,2014,15.4,30.32,0.93,South Australia,Jan
+367,3,1,2015,12.23,24.98,1.05,South Australia,Jan
+368,3,1,2016,14.19,27.5,0.97,South Australia,Jan
+369,3,1,2017,14.93,28.48,1.93,South Australia,Jan
+370,3,2,2008,8.9,18.1,0.0,South Australia,Feb
+371,3,2,2009,13.51,28.13,0.5,South Australia,Feb
+372,3,2,2010,13.31,26.73,1.22,South Australia,Feb
+373,3,2,2011,13.17,25.83,1.91,South Australia,Feb
+374,3,2,2012,14.07,28.02,0.69,South Australia,Feb
+375,3,2,2013,10.77,23.89,1.0,South Australia,Feb
+376,3,2,2014,12.63,24.28,2.69,South Australia,Feb
+377,3,2,2015,14.13,28.55,0.32,South Australia,Feb
+378,3,2,2016,13.25,26.13,1.06,South Australia,Feb
+379,3,2,2017,12.58,26.35,0.3,South Australia,Feb
+380,3,3,2008,10.1,19.3,1.0,South Australia,Mar
+381,3,3,2009,12.18,24.87,0.73,South Australia,Mar
+382,3,3,2010,12.99,26.68,0.46,South Australia,Mar
+383,3,3,2011,12.22,23.09,2.34,South Australia,Mar
+384,3,3,2012,11.88,25.15,0.98,South Australia,Mar
+385,3,3,2013,12.32,24.58,0.73,South Australia,Mar
+386,3,3,2014,11.69,24.22,1.25,South Australia,Mar
+387,3,3,2015,11.11,24.63,0.69,South Australia,Mar
+388,3,3,2016,12.08,23.7,0.75,South Australia,Mar
+389,3,3,2017,13.22,27.24,1.0,South Australia,Mar
+390,3,4,2008,5.9,21.2,0.0,South Australia,Apr
+391,3,4,2009,9.68,21.18,1.86,South Australia,Apr
+392,3,4,2010,11.38,22.53,1.97,South Australia,Apr
+393,3,4,2011,11.44,21.84,0.59,South Australia,Apr
+394,3,4,2012,10.01,23.82,0.95,South Australia,Apr
+395,3,4,2013,11.24,22.6,1.52,South Australia,Apr
+396,3,4,2014,9.78,21.95,1.16,South Australia,Apr
+397,3,4,2015,9.52,20.64,1.02,South Australia,Apr
+398,3,4,2016,10.81,23.83,0.66,South Australia,Apr
+399,3,4,2017,11.47,22.56,1.72,South Australia,Apr
+400,3,5,2008,13.6,19.3,12.8,South Australia,May
+401,3,5,2009,9.03,18.82,0.89,South Australia,May
+402,3,5,2010,7.88,19.08,1.49,South Australia,May
+403,3,5,2011,8.85,18.21,1.68,South Australia,May
+404,3,5,2012,8.08,18.81,1.17,South Australia,May
+405,3,5,2013,9.21,19.39,1.9,South Australia,May
+406,3,5,2014,10.46,21.81,0.7,South Australia,May
+407,3,5,2015,8.61,19.17,1.49,South Australia,May
+408,3,5,2016,9.49,20.3,1.77,South Australia,May
+409,3,5,2017,9.0,20.1,1.47,South Australia,May
+410,3,6,2008,12.7,19.6,0.6,South Australia,Jun
+411,3,6,2009,7.83,18.68,0.86,South Australia,Jun
+412,3,6,2010,6.88,17.58,1.62,South Australia,Jun
+413,3,6,2011,7.37,18.1,1.59,South Australia,Jun
+414,3,6,2012,7.1,17.07,2.23,South Australia,Jun
+415,3,6,2013,7.35,18.3,1.0,South Australia,Jun
+416,3,6,2014,8.09,18.21,2.69,South Australia,Jun
+417,3,6,2015,8.74,18.15,0.63,South Australia,Jun
+418,3,6,2016,8.28,18.08,2.98,South Australia,Jun
+419,3,6,2017,7.55,19.97,1.12,South Australia,Jun
+420,3,7,2008,10.2,16.8,0.0,South Australia,Jul
+421,3,7,2009,7.91,17.93,1.55,South Australia,Jul
+422,3,7,2010,7.08,17.75,1.55,South Australia,Jul
+423,3,7,2011,7.03,18.13,1.51,South Australia,Jul
+424,3,7,2012,6.64,16.94,1.27,South Australia,Jul
+425,3,7,2013,8.59,18.77,2.7,South Australia,Jul
+426,3,7,2014,7.39,18.34,0.97,South Australia,Jul
+427,3,7,2015,7.18,17.44,2.06,South Australia,Jul
+428,3,7,2016,8.2,18.59,1.65,South Australia,Jul
+429,3,7,2017,12.64,27.43,0.28,South Australia,Jul
+430,3,8,2008,11.1,21.0,0.0,South Australia,Aug
+431,3,8,2009,8.76,19.12,2.05,South Australia,Aug
+432,3,8,2010,7.82,18.02,2.88,South Australia,Aug
+433,3,8,2011,8.59,19.27,2.05,South Australia,Aug
+434,3,8,2012,7.05,17.59,1.56,South Australia,Aug
+435,3,8,2013,8.93,20.16,2.19,South Australia,Aug
+436,3,8,2014,7.87,20.51,0.24,South Australia,Aug
+437,3,8,2015,8.13,18.88,0.72,South Australia,Aug
+438,3,8,2016,8.13,19.65,2.01,South Australia,Aug
+439,3,8,2017,12.16,27.68,0.08,South Australia,Aug
+440,3,9,2008,6.9,16.5,0.4,South Australia,Sep
+441,3,9,2009,8.76,20.2,2.15,South Australia,Sep
+442,3,9,2010,8.87,19.1,1.55,South Australia,Sep
+443,3,9,2011,9.43,21.33,1.64,South Australia,Sep
+444,3,9,2012,8.02,19.97,0.59,South Australia,Sep
+445,3,9,2013,10.31,22.68,1.34,South Australia,Sep
+446,3,9,2014,9.38,22.58,0.77,South Australia,Sep
+447,3,9,2015,8.59,20.99,0.79,South Australia,Sep
+448,3,9,2016,8.28,18.85,4.01,South Australia,Sep
+449,3,9,2017,13.47,25.81,1.29,South Australia,Sep
+450,3,10,2008,7.5,19.9,4.2,South Australia,Oct
+451,3,10,2009,10.3,23.03,1.23,South Australia,Oct
+452,3,10,2010,9.78,21.55,1.73,South Australia,Oct
+453,3,10,2011,11.09,22.77,0.93,South Australia,Oct
+454,3,10,2012,9.25,23.16,0.38,South Australia,Oct
+455,3,10,2013,9.88,22.35,1.37,South Australia,Oct
+456,3,10,2014,11.14,25.86,1.09,South Australia,Oct
+457,3,10,2015,11.84,25.66,1.34,South Australia,Oct
+458,3,10,2016,9.1,21.19,2.09,South Australia,Oct
+459,3,10,2017,11.92,25.59,0.18,South Australia,Oct
+460,3,11,2008,6.2,25.8,0.0,South Australia,Nov
+461,3,11,2009,13.22,26.7,2.08,South Australia,Nov
+462,3,11,2010,12.35,23.85,1.54,South Australia,Nov
+463,3,11,2011,12.05,24.03,1.52,South Australia,Nov
+464,3,11,2012,11.37,26.2,0.54,South Australia,Nov
+465,3,11,2013,11.12,24.75,0.53,South Australia,Nov
+466,3,11,2014,12.63,26.35,0.84,South Australia,Nov
+467,3,11,2015,11.22,25.36,0.39,South Australia,Nov
+468,3,11,2016,11.12,24.77,1.14,South Australia,Nov
+469,3,11,2017,11.68,24.58,0.1,South Australia,Nov
+470,3,12,2008,11.42,20.75,4.77,South Australia,Dec
+471,3,12,2009,13.6,28.39,0.82,South Australia,Dec
+472,3,12,2010,12.08,24.01,1.16,South Australia,Dec
+473,3,12,2011,13.07,26.18,1.58,South Australia,Dec
+474,3,12,2012,8.67,21.33,0.42,South Australia,Dec
+475,3,12,2013,13.17,27.73,0.82,South Australia,Dec
+476,3,12,2014,11.29,26.13,0.51,South Australia,Dec
+477,3,12,2015,14.01,29.26,0.66,South Australia,Dec
+478,3,12,2016,13.55,26.99,1.84,South Australia,Dec
+479,3,12,2017,11.22,23.58,0.89,South Australia,Dec
+480,4,1,2008,9.67,21.17,1.97,Western Australia,Jan
+481,4,1,2009,14.14,27.1,1.17,Western Australia,Jan
+482,4,1,2010,14.9,29.19,0.48,Western Australia,Jan
+483,4,1,2011,15.33,28.57,1.81,Western Australia,Jan
+484,4,1,2012,16.36,29.58,1.89,Western Australia,Jan
+485,4,1,2013,14.69,27.96,0.54,Western Australia,Jan
+486,4,1,2014,14.83,28.23,0.49,Western Australia,Jan
+487,4,1,2015,14.69,28.72,0.78,Western Australia,Jan
+488,4,1,2016,13.86,26.1,1.56,Western Australia,Jan
+489,4,1,2017,13.91,28.58,1.58,Western Australia,Jan
+490,4,2,2008,9.53,23.02,3.9,Western Australia,Feb
+491,4,2,2009,13.31,26.36,0.76,Western Australia,Feb
+492,4,2,2010,14.74,29.14,0.33,Western Australia,Feb
+493,4,2,2011,17.15,29.63,2.46,Western Australia,Feb
+494,4,2,2012,14.45,27.33,0.76,Western Australia,Feb
+495,4,2,2013,12.39,23.96,2.85,Western Australia,Feb
+496,4,2,2014,14.29,28.09,0.51,Western Australia,Feb
+497,4,2,2015,14.45,27.35,0.92,Western Australia,Feb
+498,4,2,2016,12.94,26.61,0.44,Western Australia,Feb
+499,4,2,2017,15.03,29.15,0.89,Western Australia,Feb
+500,4,3,2008,9.33,19.8,0.17,Western Australia,Mar
+501,4,3,2009,12.03,25.1,0.48,Western Australia,Mar
+502,4,3,2010,13.47,26.22,1.0,Western Australia,Mar
+503,4,3,2011,15.02,28.08,1.09,Western Australia,Mar
+504,4,3,2012,13.59,25.52,1.37,Western Australia,Mar
+505,4,3,2013,13.08,24.75,2.17,Western Australia,Mar
+506,4,3,2014,13.64,25.69,0.81,Western Australia,Mar
+507,4,3,2015,13.6,25.82,1.6,Western Australia,Mar
+508,4,3,2016,14.2,25.71,1.46,Western Australia,Mar
+509,4,3,2017,12.87,25.13,1.58,Western Australia,Mar
+510,4,4,2008,10.42,20.42,2.03,Western Australia,Apr
+511,4,4,2009,11.16,24.59,0.59,Western Australia,Apr
+512,4,4,2010,10.91,23.78,1.13,Western Australia,Apr
+513,4,4,2011,13.11,24.63,1.73,Western Australia,Apr
+514,4,4,2012,12.11,23.55,3.14,Western Australia,Apr
+515,4,4,2013,13.33,24.31,1.28,Western Australia,Apr
+516,4,4,2014,10.98,24.18,0.78,Western Australia,Apr
+517,4,4,2015,11.25,23.68,1.08,Western Australia,Apr
+518,4,4,2016,13.17,22.86,2.53,Western Australia,Apr
+519,4,4,2017,12.09,25.54,0.27,Western Australia,Apr
+520,4,5,2008,8.72,20.03,2.13,Western Australia,May
+521,4,5,2009,9.73,22.95,2.12,Western Australia,May
+522,4,5,2010,9.25,21.43,3.12,Western Australia,May
+523,4,5,2011,10.84,21.62,2.65,Western Australia,May
+524,4,5,2012,9.05,22.05,2.2,Western Australia,May
+525,4,5,2013,9.4,21.33,2.55,Western Australia,May
+526,4,5,2014,11.59,22.16,2.66,Western Australia,May
+527,4,5,2015,9.84,21.25,2.62,Western Australia,May
+528,4,5,2016,10.0,20.97,3.18,Western Australia,May
+529,4,5,2017,10.67,21.71,2.5,Western Australia,May
+530,4,6,2008,7.22,20.5,2.53,Western Australia,Jun
+531,4,6,2009,10.2,19.68,4.58,Western Australia,Jun
+532,4,6,2010,8.67,20.26,1.75,Western Australia,Jun
+533,4,6,2011,10.54,19.99,4.35,Western Australia,Jun
+534,4,6,2012,9.34,19.66,3.37,Western Australia,Jun
+535,4,6,2013,9.12,20.66,2.28,Western Australia,Jun
+536,4,6,2014,9.09,20.69,3.43,Western Australia,Jun
+537,4,6,2015,9.61,20.41,3.1,Western Australia,Jun
+538,4,6,2016,9.44,19.58,2.64,Western Australia,Jun
+539,4,6,2017,10.09,21.62,3.14,Western Australia,Jun
+540,4,7,2008,7.22,18.28,6.07,Western Australia,Jul
+541,4,7,2009,8.48,19.3,3.85,Western Australia,Jul
+542,4,7,2010,7.98,20.16,1.93,Western Australia,Jul
+543,4,7,2011,9.93,20.13,4.59,Western Australia,Jul
+544,4,7,2012,7.76,19.58,1.91,Western Australia,Jul
+545,4,7,2013,9.53,20.13,4.52,Western Australia,Jul
+546,4,7,2014,10.43,19.84,3.54,Western Australia,Jul
+547,4,7,2015,9.62,19.82,2.94,Western Australia,Jul
+548,4,7,2016,9.37,19.46,4.37,Western Australia,Jul
+549,4,7,2017,12.77,25.95,0.39,Western Australia,Jul
+550,4,8,2008,5.98,21.01,0.06,Western Australia,Aug
+551,4,8,2009,9.5,20.17,3.16,Western Australia,Aug
+552,4,8,2010,8.02,19.99,1.98,Western Australia,Aug
+553,4,8,2011,9.88,20.91,3.45,Western Australia,Aug
+554,4,8,2012,8.66,20.46,2.47,Western Australia,Aug
+555,4,8,2013,10.17,21.0,4.97,Western Australia,Aug
+556,4,8,2014,11.0,21.35,4.81,Western Australia,Aug
+557,4,8,2015,9.79,21.04,3.37,Western Australia,Aug
+558,4,8,2016,8.98,19.43,4.47,Western Australia,Aug
+559,4,8,2017,11.85,25.14,0.47,Western Australia,Aug
+560,4,9,2008,9.77,20.67,3.24,Western Australia,Sep
+561,4,9,2009,9.41,21.2,2.22,Western Australia,Sep
+562,4,9,2010,9.05,22.64,1.15,Western Australia,Sep
+563,4,9,2011,9.88,21.07,3.13,Western Australia,Sep
+564,4,9,2012,9.17,22.33,1.78,Western Australia,Sep
+565,4,9,2013,10.96,20.94,5.48,Western Australia,Sep
+566,4,9,2014,10.38,22.66,2.45,Western Australia,Sep
+567,4,9,2015,9.63,22.89,1.14,Western Australia,Sep
+568,4,9,2016,7.96,20.0,3.02,Western Australia,Sep
+569,4,9,2017,12.44,24.1,2.79,Western Australia,Sep
+570,4,10,2008,13.4,24.81,1.59,Western Australia,Oct
+571,4,10,2009,12.04,24.66,0.99,Western Australia,Oct
+572,4,10,2010,9.65,23.19,1.07,Western Australia,Oct
+573,4,10,2011,11.5,23.31,1.98,Western Australia,Oct
+574,4,10,2012,11.21,24.66,1.01,Western Australia,Oct
+575,4,10,2013,11.24,23.97,2.11,Western Australia,Oct
+576,4,10,2014,11.88,24.32,1.54,Western Australia,Oct
+577,4,10,2015,12.27,25.04,1.75,Western Australia,Oct
+578,4,10,2016,9.55,22.17,2.03,Western Australia,Oct
+579,4,10,2017,12.08,24.3,8.19,Western Australia,Oct
+580,4,11,2008,12.85,23.37,1.5,Western Australia,Nov
+581,4,11,2009,12.09,24.97,2.38,Western Australia,Nov
+582,4,11,2010,12.21,26.8,1.08,Western Australia,Nov
+583,4,11,2011,12.08,24.84,0.5,Western Australia,Nov
+584,4,11,2012,12.68,25.97,1.93,Western Australia,Nov
+585,4,11,2013,13.22,25.55,1.91,Western Australia,Nov
+586,4,11,2014,12.46,25.0,1.48,Western Australia,Nov
+587,4,11,2015,13.27,26.84,0.75,Western Australia,Nov
+588,4,11,2016,11.93,25.91,0.61,Western Australia,Nov
+589,4,11,2017,12.19,25.51,2.62,Western Australia,Nov
+590,4,12,2008,15.3,27.32,0.3,Western Australia,Dec
+591,4,12,2009,13.86,27.76,0.81,Western Australia,Dec
+592,4,12,2010,14.25,27.25,2.12,Western Australia,Dec
+593,4,12,2011,14.12,26.81,0.85,Western Australia,Dec
+594,4,12,2012,11.99,24.88,1.66,Western Australia,Dec
+595,4,12,2013,13.54,27.45,1.24,Western Australia,Dec
+596,4,12,2014,13.22,26.89,0.47,Western Australia,Dec
+597,4,12,2015,14.11,27.93,1.04,Western Australia,Dec
+598,4,12,2016,12.96,25.89,1.29,Western Australia,Dec
+599,4,12,2017,12.17,23.71,0.72,Western Australia,Dec
+600,5,1,2008,7.44,16.21,1.26,Tasmania,Jan
+601,5,1,2009,11.8,23.06,0.81,Tasmania,Jan
+602,5,1,2010,11.03,22.29,1.01,Tasmania,Jan
+603,5,1,2011,11.65,21.07,1.74,Tasmania,Jan
+604,5,1,2012,11.49,22.54,1.71,Tasmania,Jan
+605,5,1,2013,11.14,21.72,1.4,Tasmania,Jan
+606,5,1,2014,11.55,23.09,1.11,Tasmania,Jan
+607,5,1,2015,10.88,20.42,3.25,Tasmania,Jan
+608,5,1,2016,12.59,22.19,3.75,Tasmania,Jan
+609,5,1,2017,11.64,22.29,1.43,Tasmania,Jan
+610,5,2,2008,7.99,16.09,3.66,Tasmania,Feb
+611,5,2,2009,10.47,20.82,1.54,Tasmania,Feb
+612,5,2,2010,11.17,21.89,0.59,Tasmania,Feb
+613,5,2,2011,9.51,20.18,1.72,Tasmania,Feb
+614,5,2,2012,11.64,21.91,1.16,Tasmania,Feb
+615,5,2,2013,8.48,18.55,0.86,Tasmania,Feb
+616,5,2,2014,10.82,21.36,1.57,Tasmania,Feb
+617,5,2,2015,11.73,21.41,0.98,Tasmania,Feb
+618,5,2,2016,11.63,21.63,1.18,Tasmania,Feb
+619,5,2,2017,10.03,21.97,1.16,Tasmania,Feb
+620,5,3,2008,7.53,15.44,0.66,Tasmania,Mar
+621,5,3,2009,10.89,20.32,2.58,Tasmania,Mar
+622,5,3,2010,10.9,21.85,0.75,Tasmania,Mar
+623,5,3,2011,9.72,19.74,2.04,Tasmania,Mar
+624,5,3,2012,10.09,20.69,1.42,Tasmania,Mar
+625,5,3,2013,10.09,20.96,2.66,Tasmania,Mar
+626,5,3,2014,10.31,20.34,1.86,Tasmania,Mar
+627,5,3,2015,8.44,19.42,2.15,Tasmania,Mar
+628,5,3,2016,10.11,19.69,1.58,Tasmania,Mar
+629,5,3,2017,11.75,22.61,0.87,Tasmania,Mar
+630,5,4,2008,3.83,16.24,1.06,Tasmania,Apr
+631,5,4,2009,7.77,17.05,3.63,Tasmania,Apr
+632,5,4,2010,9.38,19.62,1.73,Tasmania,Apr
+633,5,4,2011,8.03,17.44,1.31,Tasmania,Apr
+634,5,4,2012,9.16,19.08,1.17,Tasmania,Apr
+635,5,4,2013,7.88,18.36,1.59,Tasmania,Apr
+636,5,4,2014,7.17,17.85,1.75,Tasmania,Apr
+637,5,4,2015,7.2,17.96,0.74,Tasmania,Apr
+638,5,4,2016,8.67,19.68,1.29,Tasmania,Apr
+639,5,4,2017,8.89,19.6,0.56,Tasmania,Apr
+640,5,5,2008,6.03,17.04,0.97,Tasmania,May
+641,5,5,2009,7.32,16.47,2.1,Tasmania,May
+642,5,5,2010,6.37,15.89,2.52,Tasmania,May
+643,5,5,2011,6.25,15.96,1.27,Tasmania,May
+644,5,5,2012,7.31,16.96,2.6,Tasmania,May
+645,5,5,2013,6.33,16.67,2.09,Tasmania,May
+646,5,5,2014,8.17,17.05,1.21,Tasmania,May
+647,5,5,2015,5.92,15.75,1.5,Tasmania,May
+648,5,5,2016,7.84,16.54,2.6,Tasmania,May
+649,5,5,2017,7.29,16.57,2.1,Tasmania,May
+650,5,6,2008,6.91,16.39,1.03,Tasmania,Jun
+651,5,6,2009,5.96,14.74,1.86,Tasmania,Jun
+652,5,6,2010,5.45,15.24,1.93,Tasmania,Jun
+653,5,6,2011,5.24,14.87,1.54,Tasmania,Jun
+654,5,6,2012,5.2,14.32,2.89,Tasmania,Jun
+655,5,6,2013,5.24,14.97,2.13,Tasmania,Jun
+656,5,6,2014,6.13,15.22,1.98,Tasmania,Jun
+657,5,6,2015,5.82,14.94,1.37,Tasmania,Jun
+658,5,6,2016,7.61,15.52,2.42,Tasmania,Jun
+659,5,6,2017,6.81,16.19,0.76,Tasmania,Jun
+660,5,7,2008,4.63,13.13,0.86,Tasmania,Jul
+661,5,7,2009,6.06,14.91,2.1,Tasmania,Jul
+662,5,7,2010,5.45,15.81,1.5,Tasmania,Jul
+663,5,7,2011,4.79,14.45,0.69,Tasmania,Jul
+664,5,7,2012,5.2,14.18,1.23,Tasmania,Jul
+665,5,7,2013,6.56,15.5,2.3,Tasmania,Jul
+666,5,7,2014,5.5,15.18,3.45,Tasmania,Jul
+667,5,7,2015,5.07,14.71,1.63,Tasmania,Jul
+668,5,7,2016,7.0,15.5,2.91,Tasmania,Jul
+669,5,7,2017,9.57,20.71,0.75,Tasmania,Jul
+670,5,8,2008,5.38,14.45,2.11,Tasmania,Aug
+671,5,8,2009,7.16,15.99,3.44,Tasmania,Aug
+672,5,8,2010,6.39,15.85,2.27,Tasmania,Aug
+673,5,8,2011,7.85,16.52,2.13,Tasmania,Aug
+674,5,8,2012,6.23,15.51,1.65,Tasmania,Aug
+675,5,8,2013,6.45,16.13,3.31,Tasmania,Aug
+676,5,8,2014,5.86,17.35,0.26,Tasmania,Aug
+677,5,8,2015,5.21,15.25,1.39,Tasmania,Aug
+678,5,8,2016,6.68,16.65,1.22,Tasmania,Aug
+679,5,8,2017,10.48,21.76,0.05,Tasmania,Aug
+680,5,9,2008,8.0,17.13,1.02,Tasmania,Sep
+681,5,9,2009,7.36,16.72,2.74,Tasmania,Sep
+682,5,9,2010,7.4,16.82,1.56,Tasmania,Sep
+683,5,9,2011,7.93,17.37,3.25,Tasmania,Sep
+684,5,9,2012,7.25,16.27,2.02,Tasmania,Sep
+685,5,9,2013,7.91,16.92,2.92,Tasmania,Sep
+686,5,9,2014,8.07,18.94,0.87,Tasmania,Sep
+687,5,9,2015,7.29,17.83,1.38,Tasmania,Sep
+688,5,9,2016,8.36,17.66,3.5,Tasmania,Sep
+689,5,9,2017,11.08,20.05,0.46,Tasmania,Sep
+690,5,10,2008,8.17,18.58,0.57,Tasmania,Oct
+691,5,10,2009,8.0,17.84,1.85,Tasmania,Oct
+692,5,10,2010,8.61,18.62,1.77,Tasmania,Oct
+693,5,10,2011,8.56,18.06,2.05,Tasmania,Oct
+694,5,10,2012,7.39,17.68,0.89,Tasmania,Oct
+695,5,10,2013,8.26,17.87,2.14,Tasmania,Oct
+696,5,10,2014,8.19,18.7,1.37,Tasmania,Oct
+697,5,10,2015,7.94,19.05,0.47,Tasmania,Oct
+698,5,10,2016,8.4,17.7,2.71,Tasmania,Oct
+699,5,10,2017,9.5,20.03,2.08,Tasmania,Oct
+700,5,11,2008,8.64,17.92,2.27,Tasmania,Nov
+701,5,11,2009,10.08,19.36,2.33,Tasmania,Nov
+702,5,11,2010,10.46,19.4,3.28,Tasmania,Nov
+703,5,11,2011,9.63,19.33,3.42,Tasmania,Nov
+704,5,11,2012,8.56,20.19,0.56,Tasmania,Nov
+705,5,11,2013,9.61,18.51,3.11,Tasmania,Nov
+706,5,11,2014,9.63,20.04,1.04,Tasmania,Nov
+707,5,11,2015,9.91,20.06,1.19,Tasmania,Nov
+708,5,11,2016,9.9,19.24,2.54,Tasmania,Nov
+709,5,11,2017,10.51,19.42,0.07,Tasmania,Nov
+710,5,12,2008,10.61,20.65,1.47,Tasmania,Dec
+711,5,12,2009,10.8,21.63,1.54,Tasmania,Dec
+712,5,12,2010,9.56,19.88,3.25,Tasmania,Dec
+713,5,12,2011,10.49,20.83,1.13,Tasmania,Dec
+714,5,12,2012,7.39,18.39,0.52,Tasmania,Dec
+715,5,12,2013,10.7,21.17,0.77,Tasmania,Dec
+716,5,12,2014,10.15,20.79,1.22,Tasmania,Dec
+717,5,12,2015,10.81,22.22,1.0,Tasmania,Dec
+718,5,12,2016,11.38,21.23,2.16,Tasmania,Dec
+719,5,12,2017,11.08,18.51,1.23,Tasmania,Dec
+720,6,1,2008,22.53,34.11,0.0,Northern Territory,Jan
+721,6,1,2009,22.49,33.04,6.09,Northern Territory,Jan
+722,6,1,2010,20.85,32.43,5.89,Northern Territory,Jan
+723,6,1,2011,21.04,33.12,6.29,Northern Territory,Jan
+724,6,1,2012,20.42,33.11,9.9,Northern Territory,Jan
+725,6,1,2013,20.54,33.31,4.04,Northern Territory,Jan
+726,6,1,2014,21.82,33.05,8.46,Northern Territory,Jan
+727,6,1,2015,21.12,34.0,3.8,Northern Territory,Jan
+728,6,1,2016,21.85,33.8,4.76,Northern Territory,Jan
+729,6,1,2017,22.88,33.66,8.23,Northern Territory,Jan
+730,6,2,2008,22.36,34.44,1.06,Northern Territory,Feb
+731,6,2,2009,21.01,32.36,5.56,Northern Territory,Feb
+732,6,2,2010,20.83,30.98,12.09,Northern Territory,Feb
+733,6,2,2011,20.26,31.19,20.23,Northern Territory,Feb
+734,6,2,2012,20.06,32.84,3.8,Northern Territory,Feb
+735,6,2,2013,17.09,31.59,3.06,Northern Territory,Feb
+736,6,2,2014,20.15,32.47,4.52,Northern Territory,Feb
+737,6,2,2015,21.64,34.59,4.17,Northern Territory,Feb
+738,6,2,2016,21.87,34.73,2.5,Northern Territory,Feb
+739,6,2,2017,20.18,33.95,4.38,Northern Territory,Feb
+740,6,3,2008,22.73,34.93,0.37,Northern Territory,Mar
+741,6,3,2009,20.44,33.14,1.95,Northern Territory,Mar
+742,6,3,2010,20.16,31.51,3.49,Northern Territory,Mar
+743,6,3,2011,19.58,29.91,4.24,Northern Territory,Mar
+744,6,3,2012,18.8,31.38,7.07,Northern Territory,Mar
+745,6,3,2013,20.04,33.0,6.1,Northern Territory,Mar
+746,6,3,2014,19.48,33.74,0.88,Northern Territory,Mar
+747,6,3,2015,19.62,33.56,3.32,Northern Territory,Mar
+748,6,3,2016,21.2,33.49,1.42,Northern Territory,Mar
+749,6,3,2017,21.28,34.54,5.8,Northern Territory,Mar
+750,6,4,2008,22.86,34.5,0.0,Northern Territory,Apr
+751,6,4,2009,18.76,30.94,0.73,Northern Territory,Apr
+752,6,4,2010,18.31,29.68,1.64,Northern Territory,Apr
+753,6,4,2011,17.72,30.23,2.79,Northern Territory,Apr
+754,6,4,2012,16.89,29.87,1.99,Northern Territory,Apr
+755,6,4,2013,16.84,32.51,1.1,Northern Territory,Apr
+756,6,4,2014,18.04,31.65,2.09,Northern Territory,Apr
+757,6,4,2015,16.77,30.44,0.77,Northern Territory,Apr
+758,6,4,2016,18.01,32.72,0.66,Northern Territory,Apr
+759,6,4,2017,18.32,30.74,2.15,Northern Territory,Apr
+760,6,5,2008,22.21,32.86,1.86,Northern Territory,May
+761,6,5,2009,16.2,28.3,1.06,Northern Territory,May
+762,6,5,2010,17.67,27.88,2.58,Northern Territory,May
+763,6,5,2011,13.72,27.28,0.33,Northern Territory,May
+764,6,5,2012,13.99,27.55,0.04,Northern Territory,May
+765,6,5,2013,15.94,28.54,2.17,Northern Territory,May
+766,6,5,2014,17.01,30.67,0.88,Northern Territory,May
+767,6,5,2015,14.9,29.02,0.67,Northern Territory,May
+768,6,5,2016,16.89,30.84,0.43,Northern Territory,May
+769,6,5,2017,15.21,30.32,2.97,Northern Territory,May
+770,6,6,2008,22.56,32.36,0.37,Northern Territory,Jun
+771,6,6,2009,15.12,28.6,0.27,Northern Territory,Jun
+772,6,6,2010,14.5,27.08,3.06,Northern Territory,Jun
+773,6,6,2011,11.95,26.59,0.25,Northern Territory,Jun
+774,6,6,2012,12.13,27.19,1.76,Northern Territory,Jun
+775,6,6,2013,13.98,27.58,0.56,Northern Territory,Jun
+776,6,6,2014,12.74,27.94,0.62,Northern Territory,Jun
+777,6,6,2015,13.73,28.5,0.52,Northern Territory,Jun
+778,6,6,2016,15.23,28.75,1.18,Northern Territory,Jun
+779,6,6,2017,12.89,28.94,1.94,Northern Territory,Jun
+780,6,7,2008,19.53,31.45,0.46,Northern Territory,Jul
+781,6,7,2009,14.2,27.75,1.83,Northern Territory,Jul
+782,6,7,2010,15.88,27.28,1.8,Northern Territory,Jul
+783,6,7,2011,13.9,27.73,2.03,Northern Territory,Jul
+784,6,7,2012,11.92,26.6,0.94,Northern Territory,Jul
+785,6,7,2013,13.23,29.04,0.03,Northern Territory,Jul
+786,6,7,2014,13.66,28.93,1.23,Northern Territory,Jul
+787,6,7,2015,12.81,27.4,0.33,Northern Territory,Jul
+788,6,7,2016,13.72,28.71,0.87,Northern Territory,Jul
+789,6,7,2017,19.21,32.25,4.77,Northern Territory,Jul
+790,6,8,2008,20.99,32.88,0.75,Northern Territory,Aug
+791,6,8,2009,17.8,30.98,0.87,Northern Territory,Aug
+792,6,8,2010,16.19,28.29,2.0,Northern Territory,Aug
+793,6,8,2011,14.13,29.1,1.36,Northern Territory,Aug
+794,6,8,2012,13.54,29.28,1.28,Northern Territory,Aug
+795,6,8,2013,14.94,31.29,0.09,Northern Territory,Aug
+796,6,8,2014,11.74,29.08,0.84,Northern Territory,Aug
+797,6,8,2015,14.68,29.56,0.82,Northern Territory,Aug
+798,6,8,2016,15.69,30.14,1.15,Northern Territory,Aug
+799,6,8,2017,19.09,32.18,0.84,Northern Territory,Aug
+800,6,9,2008,23.24,33.37,0.21,Northern Territory,Sep
+801,6,9,2009,19.15,31.7,1.61,Northern Territory,Sep
+802,6,9,2010,17.38,28.77,2.93,Northern Territory,Sep
+803,6,9,2011,17.05,30.72,2.15,Northern Territory,Sep
+804,6,9,2012,17.15,31.5,0.61,Northern Territory,Sep
+805,6,9,2013,18.34,33.83,0.33,Northern Territory,Sep
+806,6,9,2014,16.8,33.11,0.67,Northern Territory,Sep
+807,6,9,2015,15.19,31.39,1.48,Northern Territory,Sep
+808,6,9,2016,18.2,30.85,1.98,Northern Territory,Sep
+809,6,9,2017,18.85,31.23,6.38,Northern Territory,Sep
+810,6,10,2008,24.18,34.38,4.85,Northern Territory,Oct
+811,6,10,2009,18.88,32.71,1.06,Northern Territory,Oct
+812,6,10,2010,18.3,29.28,3.51,Northern Territory,Oct
+813,6,10,2011,19.7,31.56,3.16,Northern Territory,Oct
+814,6,10,2012,17.87,32.56,0.24,Northern Territory,Oct
+815,6,10,2013,19.48,33.98,1.24,Northern Territory,Oct
+816,6,10,2014,18.85,34.57,0.86,Northern Territory,Oct
+817,6,10,2015,19.93,34.78,1.06,Northern Territory,Oct
+818,6,10,2016,18.97,32.68,1.17,Northern Territory,Oct
+819,6,10,2017,18.3,30.85,5.66,Northern Territory,Oct
+820,6,11,2008,25.51,33.9,2.25,Northern Territory,Nov
+821,6,11,2009,20.85,33.24,1.8,Northern Territory,Nov
+822,6,11,2010,19.54,30.82,5.81,Northern Territory,Nov
+823,6,11,2011,19.37,30.89,4.24,Northern Territory,Nov
+824,6,11,2012,20.53,33.96,0.73,Northern Territory,Nov
+825,6,11,2013,20.83,34.07,3.45,Northern Territory,Nov
+826,6,11,2014,20.95,34.59,2.56,Northern Territory,Nov
+827,6,11,2015,20.5,35.47,1.54,Northern Territory,Nov
+828,6,11,2016,20.04,34.14,2.16,Northern Territory,Nov
+829,6,11,2017,17.42,30.52,4.27,Northern Territory,Nov
+830,6,12,2008,22.44,32.78,6.96,Northern Territory,Dec
+831,6,12,2009,21.33,33.1,7.18,Northern Territory,Dec
+832,6,12,2010,20.23,31.51,5.62,Northern Territory,Dec
+833,6,12,2011,20.61,32.96,4.58,Northern Territory,Dec
+834,6,12,2012,16.21,30.12,1.27,Northern Territory,Dec
+835,6,12,2013,20.82,34.38,2.78,Northern Territory,Dec
+836,6,12,2014,21.38,34.47,3.3,Northern Territory,Dec
+837,6,12,2015,20.83,33.15,9.26,Northern Territory,Dec
+838,6,12,2016,21.66,33.29,6.9,Northern Territory,Dec
+839,6,12,2017,17.57,31.48,7.77,Northern Territory,Dec
+840,7,1,2007,11.55,22.35,11.3,Australian Capital Territory,Jan
+841,7,1,2008,11.62,24.02,1.72,Australian Capital Territory,Jan
+842,7,1,2009,11.63,25.34,2.82,Australian Capital Territory,Jan
+843,7,1,2010,10.61,23.52,1.3,Australian Capital Territory,Jan
+844,7,1,2011,11.12,24.24,2.07,Australian Capital Territory,Jan
+845,7,1,2012,8.63,20.92,5.37,Australian Capital Territory,Jan
+846,7,1,2013,10.38,24.2,2.73,Australian Capital Territory,Jan
+847,7,1,2014,10.13,25.43,0.84,Australian Capital Territory,Jan
+848,7,1,2015,9.13,20.87,1.2,Australian Capital Territory,Jan
+849,7,1,2016,10.23,22.04,4.19,Australian Capital Territory,Jan
+850,7,1,2017,12.3,27.47,0.57,Australian Capital Territory,Jan
+851,7,2,2007,12.8,26.6,3.9,Australian Capital Territory,Feb
+852,7,2,2008,9.45,23.28,1.2,Australian Capital Territory,Feb
+853,7,2,2009,8.77,21.48,0.75,Australian Capital Territory,Feb
+854,7,2,2010,9.42,20.4,5.82,Australian Capital Territory,Feb
+855,7,2,2011,9.79,20.53,2.08,Australian Capital Territory,Feb
+856,7,2,2012,8.63,20.24,5.83,Australian Capital Territory,Feb
+857,7,2,2013,4.16,17.68,3.01,Australian Capital Territory,Feb
+858,7,2,2014,8.97,20.78,5.0,Australian Capital Territory,Feb
+859,7,2,2015,9.6,22.2,3.73,Australian Capital Territory,Feb
+860,7,2,2016,10.0,23.42,0.63,Australian Capital Territory,Feb
+861,7,2,2017,8.75,23.42,0.45,Australian Capital Territory,Feb
+862,7,3,2007,15.15,23.8,1.9,Australian Capital Territory,Mar
+863,7,3,2008,9.9,22.52,1.4,Australian Capital Territory,Mar
+864,7,3,2009,8.86,21.75,1.28,Australian Capital Territory,Mar
+865,7,3,2010,8.97,20.51,4.55,Australian Capital Territory,Mar
+866,7,3,2011,8.85,19.34,4.34,Australian Capital Territory,Mar
+867,7,3,2012,7.1,18.42,2.54,Australian Capital Territory,Mar
+868,7,3,2013,6.94,20.36,0.96,Australian Capital Territory,Mar
+869,7,3,2014,8.7,19.45,2.28,Australian Capital Territory,Mar
+870,7,3,2015,6.67,20.1,0.9,Australian Capital Territory,Mar
+871,7,3,2016,8.67,19.72,2.7,Australian Capital Territory,Mar
+872,7,3,2017,10.9,21.38,3.19,Australian Capital Territory,Mar
+873,7,4,2007,13.3,21.0,23.2,Australian Capital Territory,Apr
+874,7,4,2008,6.01,18.83,0.88,Australian Capital Territory,Apr
+875,7,4,2009,5.73,15.58,3.5,Australian Capital Territory,Apr
+876,7,4,2010,6.26,18.11,1.67,Australian Capital Territory,Apr
+877,7,4,2011,5.28,17.85,2.6,Australian Capital Territory,Apr
+878,7,4,2012,5.07,16.84,5.27,Australian Capital Territory,Apr
+879,7,4,2013,4.47,17.97,0.49,Australian Capital Territory,Apr
+880,7,4,2014,5.47,16.32,2.08,Australian Capital Territory,Apr
+881,7,4,2015,5.59,16.25,0.98,Australian Capital Territory,Apr
+882,7,4,2016,7.06,18.76,1.41,Australian Capital Territory,Apr
+883,7,4,2017,5.54,17.5,1.37,Australian Capital Territory,Apr
+884,7,5,2007,11.05,18.95,1.4,Australian Capital Territory,May
+885,7,5,2008,4.52,18.45,0.87,Australian Capital Territory,May
+886,7,5,2009,5.06,14.42,0.55,Australian Capital Territory,May
+887,7,5,2010,3.94,13.9,5.19,Australian Capital Territory,May
+888,7,5,2011,1.74,14.08,2.35,Australian Capital Territory,May
+889,7,5,2012,1.35,14.88,1.78,Australian Capital Territory,May
+890,7,5,2013,2.47,14.03,1.23,Australian Capital Territory,May
+891,7,5,2014,3.96,16.32,1.43,Australian Capital Territory,May
+892,7,5,2015,2.58,14.77,1.21,Australian Capital Territory,May
+893,7,5,2016,4.06,14.96,2.51,Australian Capital Territory,May
+894,7,5,2017,3.09,14.75,3.05,Australian Capital Territory,May
+895,7,6,2007,11.25,21.85,0.0,Australian Capital Territory,Jun
+896,7,6,2008,5.63,17.66,0.36,Australian Capital Territory,Jun
+897,7,6,2009,3.0,13.49,0.84,Australian Capital Territory,Jun
+898,7,6,2010,2.16,12.41,3.25,Australian Capital Territory,Jun
+899,7,6,2011,2.19,12.0,1.13,Australian Capital Territory,Jun
+900,7,6,2012,2.77,12.05,0.97,Australian Capital Territory,Jun
+901,7,6,2013,2.36,13.15,2.43,Australian Capital Territory,Jun
+902,7,6,2014,3.25,12.7,2.94,Australian Capital Territory,Jun
+903,7,6,2015,2.58,13.6,3.29,Australian Capital Territory,Jun
+904,7,6,2016,2.89,12.77,6.06,Australian Capital Territory,Jun
+905,7,6,2017,1.94,14.23,0.64,Australian Capital Territory,Jun
+906,7,7,2007,11.65,22.0,0.1,Australian Capital Territory,Jul
+907,7,7,2008,2.76,15.58,0.95,Australian Capital Territory,Jul
+908,7,7,2009,2.05,12.8,1.09,Australian Capital Territory,Jul
+909,7,7,2010,2.15,12.91,2.37,Australian Capital Territory,Jul
+910,7,7,2011,0.45,11.86,1.74,Australian Capital Territory,Jul
+911,7,7,2012,0.76,11.63,2.0,Australian Capital Territory,Jul
+912,7,7,2013,2.82,13.68,2.76,Australian Capital Territory,Jul
+913,7,7,2014,1.43,13.11,2.35,Australian Capital Territory,Jul
+914,7,7,2015,1.72,11.6,2.03,Australian Capital Territory,Jul
+915,7,7,2016,2.77,13.47,2.4,Australian Capital Territory,Jul
+916,7,7,2017,7.66,18.52,0.23,Australian Capital Territory,Jul
+917,7,8,2007,12.4,22.6,2.0,Australian Capital Territory,Aug
+918,7,8,2008,2.98,16.31,1.53,Australian Capital Territory,Aug
+919,7,8,2009,3.54,14.47,2.18,Australian Capital Territory,Aug
+920,7,8,2010,2.83,12.56,4.01,Australian Capital Territory,Aug
+921,7,8,2011,2.42,14.48,2.24,Australian Capital Territory,Aug
+922,7,8,2012,0.83,12.18,2.03,Australian Capital Territory,Aug
+923,7,8,2013,2.91,14.68,1.35,Australian Capital Territory,Aug
+924,7,8,2014,2.07,14.58,0.91,Australian Capital Territory,Aug
+925,7,8,2015,2.61,13.74,3.24,Australian Capital Territory,Aug
+926,7,8,2016,2.98,14.49,1.43,Australian Capital Territory,Aug
+927,7,8,2017,6.9,18.69,0.0,Australian Capital Territory,Aug
+928,7,9,2007,11.9,24.45,0.0,Australian Capital Territory,Sep
+929,7,9,2008,5.58,20.1,1.01,Australian Capital Territory,Sep
+930,7,9,2009,4.61,16.25,2.72,Australian Capital Territory,Sep
+931,7,9,2010,4.26,15.97,3.37,Australian Capital Territory,Sep
+932,7,9,2011,3.39,15.55,1.86,Australian Capital Territory,Sep
+933,7,9,2012,2.9,15.31,1.87,Australian Capital Territory,Sep
+934,7,9,2013,3.66,16.84,4.19,Australian Capital Territory,Sep
+935,7,9,2014,4.11,17.33,0.55,Australian Capital Territory,Sep
+936,7,9,2015,3.42,16.47,0.32,Australian Capital Territory,Sep
+937,7,9,2016,4.81,14.83,4.8,Australian Capital Territory,Sep
+938,7,9,2017,8.62,20.71,0.75,Australian Capital Territory,Sep
+939,7,10,2007,11.65,23.8,8.1,Australian Capital Territory,Oct
+940,7,10,2008,7.47,22.58,0.72,Australian Capital Territory,Oct
+941,7,10,2009,5.95,18.33,1.69,Australian Capital Territory,Oct
+942,7,10,2010,6.54,17.27,5.93,Australian Capital Territory,Oct
+943,7,10,2011,5.87,17.84,2.18,Australian Capital Territory,Oct
+944,7,10,2012,3.14,18.19,0.6,Australian Capital Territory,Oct
+945,7,10,2013,4.42,18.83,0.58,Australian Capital Territory,Oct
+946,7,10,2014,6.54,19.48,2.27,Australian Capital Territory,Oct
+947,7,10,2015,7.58,20.24,1.41,Australian Capital Territory,Oct
+948,7,10,2016,5.42,17.25,2.54,Australian Capital Territory,Oct
+949,7,10,2017,7.58,21.87,2.91,Australian Capital Territory,Oct
+950,7,11,2007,13.08,27.11,1.48,Australian Capital Territory,Nov
+951,7,11,2008,9.88,22.42,2.2,Australian Capital Territory,Nov
+952,7,11,2009,8.95,22.37,0.77,Australian Capital Territory,Nov
+953,7,11,2010,8.45,19.45,5.1,Australian Capital Territory,Nov
+954,7,11,2011,8.02,18.87,6.37,Australian Capital Territory,Nov
+955,7,11,2012,7.1,20.22,2.13,Australian Capital Territory,Nov
+956,7,11,2013,5.56,19.9,1.41,Australian Capital Territory,Nov
+957,7,11,2014,8.9,22.46,2.24,Australian Capital Territory,Nov
+958,7,11,2015,8.13,20.8,2.99,Australian Capital Territory,Nov
+959,7,11,2016,8.08,20.88,2.26,Australian Capital Territory,Nov
+960,7,11,2017,8.17,23.55,0.28,Australian Capital Territory,Nov
+961,7,12,2007,12.3,25.4,3.0,Australian Capital Territory,Dec
+962,7,12,2008,9.59,21.75,4.52,Australian Capital Territory,Dec
+963,7,12,2009,9.96,23.27,3.97,Australian Capital Territory,Dec
+964,7,12,2010,7.67,20.44,1.35,Australian Capital Territory,Dec
+965,7,12,2011,8.24,19.69,4.7,Australian Capital Territory,Dec
+966,7,12,2012,2.88,15.96,3.16,Australian Capital Territory,Dec
+967,7,12,2013,9.37,24.12,1.63,Australian Capital Territory,Dec
+968,7,12,2014,9.03,22.28,1.34,Australian Capital Territory,Dec
+969,7,12,2015,8.82,22.49,1.94,Australian Capital Territory,Dec
+970,7,12,2016,10.45,22.63,2.63,Australian Capital Territory,Dec
+971,7,12,2017,8.16,21.72,0.58,Australian Capital Territory,Dec

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 650,
+  "height": 400,
+  "background" : "#E2EFDE",
+
+
+  "data": {"url": "https://raw.githubusercontent.com/Alan-Nguyen0/Data-Visualisation-2/main/WeatherAUS%20-%20Daily.csv",
+  "format" : {"type": "csv", "parse" : {"MaxTemp" : "number", "Year" : "number"}}},
+  "params": [{
+    "name": "State_Select",
+    "value": "Victoria",
+    "bind": {"input": "select", 
+    "options": [
+      "Victoria",
+      "New South Wales",
+      "Queensland",
+      "Northern Territory",
+      "Western Australia",
+      "South Australia",
+      "Tasmania",
+      "Australian Capital Territory"
+    ]
+    , "name" : "Select State: "}
+    }],
+
+  "transform": [{
+    "window": [
+    {
+      "field": "MaxTemp",
+      "op": "average",
+      "as": "rolling_mean"
+    }
+  ],
+  "groupby": ["Year"]},
+    {"filter": "datum.State==State_Select"} ,
+    {"filter" : "datum.MaxTemp > 0"}
+                ],
+
+
+  "layer" : [{
+    "mark": {"type": "line", "opacity": 0.8},
+    "encoding": {
+    "x": {"field": "Date", "type": "temporal", "title" : "Date"},
+    "y": {"field": "MaxTemp", "type": "quantitative", "title" : "Maximum Temperature (*C)"},    
+    
+    "tooltip": [
+    {"field": "Date String", "type": "nominal", "title": "Date"},
+    {"field": "MaxTemp", "type": "quantitative","title": "Maximum Temperature (*C)"}
+  ]
+  }},
+  {"mark": {"type": "line", "color": "red", "size": 3},
+  "encoding": {
+    "x": {"field": "Date", "type": "temporal", "title" : "Date", "axis" : {"titleFontSize" : 15}},
+    "y": {"field": "rolling_mean", "type": "quantitative", "title" : "Maximum Temperature (*C)", "axis" : {"titleFontSize" : 15, "titleFont" : "Calibri"}},
+    
+    "tooltip": [
+    {"field": "Date String", "type": "nominal", "title": "Date"},
+    {"field": "rolling_mean", "type": "quantitative","title": "Yearly Rolling Average"}
+    ]
+  }
+  }
+
+  ]
+
+    
+
+}

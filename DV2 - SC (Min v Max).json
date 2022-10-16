@@ -1,0 +1,52 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 380,
+    "height": 450,
+    "background" : "#AFD0BF",
+
+
+    "data": {"url": "https://raw.githubusercontent.com/Alan-Nguyen0/Data-Visualisation-2/main/WeatherAUS%20-%20Monthly%20and%20Yearly%20Average.csv"},
+    
+    "params": [{
+      "name": "State_Select",
+      "value": "Victoria",
+      "bind": {"input": "select", 
+      "options": [
+        "Victoria",
+        "New South Wales",
+        "Queensland",
+        "Northern Territory",
+        "Western Australia",
+        "South Australia",
+        "Tasmania",
+        "Australian Capital Territory"
+      ]
+      , "name" : "Select State: "}
+      }],
+    
+    "transform": [
+
+      {"filter" : "datum.MaxTemp > 0"},
+      {"filter" : "datum.State==State_Select"}
+                  ],
+
+
+    "mark": {"type": "point"},
+    "encoding": {
+      "color": {
+        "field": "Month",
+        "type": "quantitative",
+        "scale": {"scheme": "sinebow"}, 
+        "labelfontsize" : 15
+      },
+      "x": {"field": "MinTemp", "type": "quantitative", "scale" : {"domain" : [0,30]}, "title" : "Average Minimum Temperature (*C)", "axis" : {"titleFontSize" : 15, "gridColor" : "#5A5353"}},
+      "y": {"field": "MaxTemp", "type": "quantitative", "scale" : {"domain" : [0,40]}, "title" : "Average Maximum Temperature (*C)", "axis" : {"titleFontSize" : 14, "gridColor" : "#5A5353"}},
+      "tooltip": [
+        {"field": "MinTemp", "type": "quantitative", "title": "Average Min Temperature"},
+        {"field": "MaxTemp", "type": "quantitative","title": "Average Max Temperature"}
+      ]
+    }
+    
+
+
+  }

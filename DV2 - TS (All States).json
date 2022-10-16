@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 450,
+  "height": 450,
+  "background" : "#AFD0BF",
+
+
+  "data": {"url": "https://raw.githubusercontent.com/Alan-Nguyen0/Data-Visualisation-2/main/WeatherAUS%20-%20Monthly%20and%20Yearly%20Average.csv"},
+  "params": [
+    {
+    "name": "Year_Select",
+    "value": 2017,
+    "bind": {"input": "range", "min": 2009, "max": 2017, "step": 1, "name" : "Select Year: "}
+    }],
+  "transform": [
+    {"filter" : "datum.MaxTemp > 0"},
+    {"filter" : "datum.Year==Year_Select"}
+                ],
+
+
+  "mark": {"type": "line"},
+  "encoding": {
+    "x": {"field": "Month", "type": "temporal", "axis" : {"titleFontSize" : 15, "gridColor" : "#5A5353", "tickColor" : "black"}},
+    "y": {"field": "MaxTemp", "type": "quantitative", "title" : "Maximum Temperature (*C)", "axis" : {"titleFontSize" : 14, "gridColor" : "#5A5353", "tickColor" : "black"}, "scale" : {"domain" : [0,40]}},
+    "tooltip": [
+      {"field": "Month String", "type": "nominal", "title": "Month"},
+      {"field": "MaxTemp", "type": "quantitative","title": "Max Temp"}
+    ],
+    "color": {"field": "State", "type": "nominal", "legend" : {"orient": "top","columns" : 4}}
+    
+  }
+}

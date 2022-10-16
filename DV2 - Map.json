@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 550,
+  "height": 400,
+  "projection": {"type":"mercator", "scale": 600, "rotate": [-135,26,0]},
+  "background" : "#AFD0BF",
+
+  "data": {"url":"https://raw.githubusercontent.com/Alan-Nguyen0/Data-Visualisation-2/main/au-states-topo.json",
+    "format": { "type": "topojson", "feature": "austates"}
+      }
+  ,
+
+  "transform": [{
+    "lookup": "id",
+    "from": {
+      "data": {"url": "https://raw.githubusercontent.com/Alan-Nguyen0/Data-Visualisation-2/main/WeatherAUS%20-%20Yearly%20Average.csv",
+  "format" : {"type":"csv", "parse" : {"Year" : "number", "MaxTemp" :"number"}}
+  },
+      "key": "id",
+      "fields": ["Year", "MaxTemp", "State"]
+    }
+  }
+  ],
+
+
+  "mark": {"type": "geoshape", "stroke":
+        "black"},
+  "encoding": {
+    "color": {
+      "field": "MaxTemp",
+      "type": "quantitative",
+      "title" : "Max Temp (*C)",
+      "scale" : {"scheme" : "lightmulti"}
+    },
+    "tooltip": [
+      {"field": "State", "type": "nominal", "title": "State"},
+      {"field": "MaxTemp", "type": "quantitative","title": "Average Max Temp"}
+    ]
+  }
+}

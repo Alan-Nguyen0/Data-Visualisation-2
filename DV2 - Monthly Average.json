@@ -1,0 +1,85 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 630,
+  "height": 370,
+  "background" : "#E2EFDE",
+
+
+  "data": {"url": "https://raw.githubusercontent.com/Alan-Nguyen0/Data-Visualisation-2/main/WeatherAUS%20-%20Monthly%20and%20Yearly%20Average.csv"},
+  "params": [{
+    "name": "State_Select",
+    "value": "Victoria",
+    "bind": {"input": "select", 
+    "options": [
+      "Victoria",
+      "New South Wales",
+      "Queensland",
+      "Northern Territory",
+      "Western Australia",
+      "South Australia",
+      "Tasmania",
+      "Australian Capital Territory"
+    ]
+    , "name" : "Select State: "}
+    },
+    {
+    "name": "Year_Select",
+    "value": 2017,
+    "bind": {"input": "range", "min": 2009, "max": 2017, "step": 1, "name" : "Select Year: "}
+    }],
+  "transform": [
+    {"filter": "datum.State==State_Select"},
+    {"filter" : "datum.Year==Year_Select"}
+                ],
+
+  "encoding": {
+  "x": {
+  "timeUnit": "month",
+  "field": "Month",
+  "axis": {"format": "%b", "title": "Month"}
+}
+},
+
+  "layer" : [
+    {
+  "mark": {"opacity": 0.5, "type": "area", "color": "#FF9770"},
+  "encoding": {
+    "y": {
+      "aggregate": "mean",
+      "field": "MaxTemp",
+      "scale": {"domain": [0, 40]},
+      "title": "Avg. Temperature (°C)",
+      "axis": {"titleColor": "#FF9770", "titleFontSize" : 15}
+    },
+
+    "y2": {
+      "aggregate": "mean",
+      "field": "MinTemp"
+      
+    },
+    "tooltip": [
+      {"field": "Month String", "type": "nominal", "title": "Month"},
+      {"field": "MaxTemp", "type": "quantitative","title": "Max Temp"},
+      {"field": "MinTemp", "type": "quantitative","title": "Min Temp"}
+      
+      ]
+    
+  }
+},{
+    "mark": {"type": "line"},
+    "encoding": {
+    "x": {"field": "Month", "type": "temporal","timeUnit":"month","axis": {"labelAlign": "left", "titleFontSize" : 15, "gridColor" : "#9DA2AB"}, "title":"Month"},
+    "y": {"field": "Rainfall", "type": "quantitative", "title" : "Average temperature (*C)", "scale" : {"domain" : [0,10]}, "axis" : {"titleFontSize" : 14, "titleColor" : "#456990"}},
+    "tooltip": [
+      {"field": "Month String", "type": "nominal", "title": "Month"},
+      {"field": "Rainfall", "type": "quantitative","title": "Average Rainfall (mm)"}
+    ],
+    "color": {"value": "#456990"}
+  }
+}
+
+
+],"resolve": {"scale": {"y": "independent"}}
+
+}
+  

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+
+    <!-- Import pure.css -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+
+
+
+    <title>Weather in Australia </title>
+
+</head>
+
+<body>
+
+  <div class="page">
+
+
+
+    <div class="pure-g">
+      <div class="pure-u-3-4" style="background-color:#175676;">
+        <h1>Weather in Australia</h1>
+        <h4>An interactive visualisation of Australian Weather</h4>  
+      </div>
+      <div class="pure-u-1-4" style="background-color:#175676;">
+        <img src="https://raw.githubusercontent.com/Alan-Nguyen0/Data-Visualisation-2/main/Australia_Picture.png"
+            width="330"
+            height="200">
+      </div>
+    </div>
+
+    <div class="pure-g">
+      <div class="pure-u-1-2" style="background-color:#AFD0BF">
+        <div class="description-left" style="padding-left: 30px;">
+          <h2>Climate Change</h2>
+          <p>In recent times, climate change has become a highly discussed topic on the news. Its widespread and alarming consequences are plain to see for everybody. News articles are often reporting on record high temperatures and devastating natural disasters.</p>
+          <p>Each year, summer seems to be getting hotter and more unbearable. People often wonder if the coming summer will be the hottest one yet. This visualisation will examine a decade of temperature data to answer a frequently asked question. ‘ Is each summer truly getting hotter and hotter?’</p>
+          <div style="height: 0.1px;"> </div>
+          <p>The graph to the right gives a brief overview of the average temperature across different states and territories around Australia. It shows that the northernmost states of Australia experience the hottest weather, whereas the southernmost states of Australia experience cooler weather. This is most likely because Australia’s northern region is closest to the equator. Other states located further away from the equator have lower temperatures.</p>
+        </div>
+      </div>
+      <div class="pure-u-1-2" style="background-color:#AFD0BF">
+        <h3> Yearly Average - Maximum Temperature (2017) </h3>
+        <div id="map_diagram" class="vis-container" style="padding-left: 50px;"></div>
+      </div>
+      <div class="pure-u-1-1" style="background-color:#AFD0BF; height: 10px;"></div>
+
+    </div>
+      
+
+
+    <div class="pure-g">
+      <div class="pure-u-1-2" style="background-color:#E2EFDE">
+        <h3> Daily - Maximum Temperature </h3>
+        <div id="daily_data" class="vis-container"></div>
+      </div>
+      <div class="pure-u-1-2" style="background-color:#E2EFDE">
+        <div class="description-right" style="padding-right: 30px;">
+          <h2>Temperature trends over the last decade</h2>
+          <p>Let’s start by examining daily maximum temperature data over the last decade, shown in blue. This data displays a seasonality trend, caused by the 4 seasons in a year. However, there is also a lot of variance in the temperatures as seen by the abundant outliers to the seasonality trend. </p>
+          <div style="height: 2px;"> </div>
+          <p>From the blue line graph alone, it can be difficult to discern a long term trend in temperature. This long term trend can be found by inspecting the overlaying red line graph, which displays the 1 year rolling average of maximum temperature. </p>
+          <div style="height: 2px;"> </div>
+          <p>The average trend line may show oscillations if the temperature data has high variance. However, the overall trend for most of the states appears to be slightly positive over the decade. On average, the average maximum temperature seems to have increased about 2*C over the last decade.</p>
+        </div>
+      </div>
+      <div class="pure-u-1-1" style="background-color:#E2EFDE; height: 15px;"></div>
+
+    </div>
+      
+    <div class="pure-g">
+      <div class="pure-u-1-3" style="background-color:#AFD0BF">
+        <div class="description description-left" style="padding-left: 30px; padding-top: 20px;">
+          <h2>Dissecting temperature trends</h2>
+          <p>Knowing that the temperature data is highly seasonal, we can break down the dataset and view each year independently using monthly average data. As expected, the temperature for each state dips each year around March, stays low until June and rises back up between July and September. As seen earlier, the northernmost states consistently experience warmer temperatures than the other states throughout the year.</p>
+          <div style="height: 2px;"> </div>
+          <p>For most of the visualisation, we have been examining maximum temperature exclusively because it is a good indication of the weather during the day. We must be mindful of neglecting minimum temperature in our analysis. Would analysing minimum temperatures add to our analysis?</p>
+          <div style="height: 2px;"> </div>
+          <p>The scatterplot to the right shows monthly temperature averages across 10 years. It can be seen that maximum and minimum temperature are strongly positively correlated. This graph shows that the same conclusions can likely be made using maximum and minimum temperatures.  </p>
+        </div>
+      </div>
+      <div class="pure-u-1-3" style="background-color:#AFD0BF; padding-top: 10px;">
+        <h3> Monthly Average - Maximum Temperature </h3>
+        <div id="TS_ALL" class="vis-container"></div>
+      </div>      
+      <div class="pure-u-1-3" style="background-color:#AFD0BF;  padding-top: 10px;">
+        <h3> Max Temperature vs Min Temperature </h3>
+        <div style="height: 50px;"> </div>
+        <div id="ScatterTT" class="vis-container" style="margin-left: 15px; "></div>
+      </div>
+
+      <div class="pure-u-1-1" style="background-color:#AFD0BF; height: 15px;"></div>
+
+    </div>
+
+
+    <div class="pure-g">
+      <div class="pure-u-1-1" style="background-color:#E2EFDE; padding-top: 20px;">
+        <div class="description description-right">
+          <h2>Exploring rainfall data</h2>
+          <p>The two graphs below aim to determine the correlation between temperature and rainfall data. Most people might expect that Australia experiences the most rainfall during the winter months. However, the data doesn’t reflect this at all. Rainfall appears to be largely consistent throughout the year and rainfall peaks don’t often occur during specific months. </p>
+          <p>These graphs reveal how each state’s level of rainfall can differ significantly on average. The northernmost states seem to experience more rainfall across the year because they are closer to the tropics. Australia’s southernmost states experience very little rainfall in comparison.</p>
+        </div>
+      </div>
+    
+    <div class="pure-g">
+      <div class="pure-u-1-2" style="background-color:#E2EFDE">
+        <h3> Monthly Average - Temperature vs Rainfall </h3>
+        <div id="monthly_avg" class="vis-container"></div>
+      </div>
+      <div class="pure-u-1-2" style="width: 50%; background-color:#E2EFDE">
+        <h3> Maximum Temperature vs Rainfall </h3>
+        <div id="ScatterTR" class="vis-container" style="margin-left: 15px;"></div>
+        
+      </div>
+    
+    <div class="pure-u-1-1" style="background-color:#E2EFDE; height: 15px;"></div>
+
+  </div>
+
+  <script type="text/javascript">
+    var vg_1 = "DV2 - Map.json";
+    vegaEmbed("#map_diagram", vg_1).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var vg_2 = "DV2 - Daily Data.json";
+    vegaEmbed("#daily_data", vg_2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var vg_3= "DV2 - Monthly Average.json";
+    vegaEmbed("#monthly_avg", vg_3).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var vg_4= "DV2 - TS (All States).json";
+    vegaEmbed("#TS_ALL", vg_4).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var vg_5= "DV2 - SC (Temp v Rain).json";
+    vegaEmbed("#ScatterTR", vg_5).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var vg_6= "DV2 - SC (Min v Max).json";
+    vegaEmbed("#ScatterTT", vg_6).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+  </script>
+
+
+  
+</body>
+
+</html>

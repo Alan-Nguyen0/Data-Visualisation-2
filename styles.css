@@ -1,0 +1,96 @@
+body 
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #74B3CE;
+    font-family:"Helvetica";
+    font-size: 40px;
+    color: #172A3A;
+    width: 100%;
+    padding:0;	
+
+}
+
+
+body {
+    background-color: white;
+}
+
+.page {
+    width: 1500px;
+    height: 2400px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    padding-top: 35px;
+}
+
+.vis-container {
+    width: 100%;
+}
+
+.description h2, h1,
+h5 {
+    margin-top: 0px;
+}
+
+.description-right {
+    padding-left: 20px;
+}
+
+.description-left {
+    padding-right: 20px;
+}
+
+.pure-g {
+    margin-bottom: 5px;
+}
+
+.small-font {
+    font-size: 14px;
+}
+
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 60px;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 0;
+    padding-left: 350px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+  }
+
+h3 {
+    text-align: center;
+    color: black;
+  }
+
+
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 350px;
+    color: white
+}
+
+h5 {
+    color: #34312D
+  }
+
+p {
+    color: black;
+    font-size: 18px;
+}
